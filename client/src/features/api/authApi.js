@@ -3,7 +3,7 @@
 import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react";
 import { userLoggedIn, userLoggedOut } from "../authSlice";
 
-VITE_APP_BASE_URL=https://elearning-cp3p.onrender.com/api/v1
+VITE_APP_BASE_URL="https://elearning-cp3p.onrender.com/api/v1"
 
 export const authApi = createApi({
     reducerPath:"authApi",
